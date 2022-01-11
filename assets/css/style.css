@@ -1,0 +1,19 @@
+.bg-orange {
+    background-color: orangered;
+}
+
+.text-orange {
+    color: orangered !important;
+}
+
+.navbar {
+    height: 7vh;
+}
+
+.container-fluid {
+    height: 93vh;
+}
+
+.container-form {
+    width: 400px;
+}
