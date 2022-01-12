@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Creating Blog Page - detail</title>
+    <link rel="stylesheet" href="../public/assets/css/styleDay7.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="left-side">
+        <a href="index.html">
+          <img src="../public/assets/images/logo.png" alt="logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/blog" class="list-active">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <a href="/contact"> Contact Me </a>
+      </div>
+    </nav>
+
+    <!-- Blog -->
+    <div class="blog-detail">
+      <div class="blog-detail-container">
+        <h1>{{blog.title}}</h1>
+        <div class="author">12 Jul 2021 22:30 WIB | {{blog.author}}</div>
+        <img src="../public/assets/images/blog-img-detail.png" alt="detail" />
+        <p>
+          {{blog.content}}
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

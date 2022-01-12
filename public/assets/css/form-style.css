@@ -1,0 +1,124 @@
+* {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color:rgb(186, 191, 189);
+    display: flex;
+    height: 7vh;
+}
+
+nav .left {
+    /* background-color: brown; */
+    /* width: 50%; */
+    flex: 50%;
+    padding-left: 90px;
+    display: flex;
+
+    align-items: center;
+}
+
+nav .left li {
+    display: inline;
+}
+
+nav .left ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+nav .right {
+    /* background-color: blueviolet; */
+    /* width: 50%; */
+    flex: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 80px;
+}
+
+nav .right a {
+    background-color: orangered;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.container {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .section {
+    /* background-color: brown; */
+    display: flex;
+    width: 85%;
+}
+
+.section .left {
+    /* background-color: aqua; */
+    flex: 30%;
+}
+
+.section .right {
+    /* background-color: blueviolet; */
+    flex: 70%;
+    padding-left: 35px;
+}
+
+.section .right p {
+    color: grey;
+}
+
+.section .right .skill-container {
+    display: flex;
+}
+
+.skill-container div {
+    /* width: 50%; */
+    flex: 1;
+}
+
+.skill-container div img {
+    width: 50px;
+    height: 50px;
+}
+
+form {
+    width: 400px; 
+    margin: 80px auto;
+    font-weight: bold; 
+    font-size: 20px
+}
+
+input[type=text],input[type=email],input[type=number], select, textarea {
+    background-color:rgb(214, 214, 214);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    margin: 15px 0;
+}
+
+button {
+    padding: 8px 30px; 
+    margin-top:10px; 
+    border-radius: 5px; 
+    background-color:brown;
+    color:white;
+    border: none;
+    cursor:pointer;
+    font-size: 12px;
+}

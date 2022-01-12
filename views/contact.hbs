@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="../public/assets/css/form-style.css">
+        <script src="form.js"></script>
+    </head>
+
+    <body>
+
+        <!-- awal navbar -->
+        <nav> 
+
+            <div class="left">
+
+                <img src="../public/assets/images/logo.png" alt="logo">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/blog">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="right">
+                <a href="/contact">Contact Me</a>
+            </div>
+
+        </nav>
+        <!-- akhir navbar -->
+
+        <form>
+
+            <div>        
+                <label for="input-name" >Name</label>
+                <input id="input-name" type="text">
+            </div>
+
+            <div>
+                <label for="input-email">Email</label>
+                <input id="input-email" type="email" class="email">
+            </div>
+
+            <div>
+                <label for="input-phone">Phone Number</label>
+                <input id="input-phone" type="number" >
+            </div>
+
+            <div>
+                <div>
+                    <input type="checkbox" id="html" value="HTML">
+                    <label for="html">HTML</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="css" value="CSS">
+                    <label for="html">CSS</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="input-subject">Subject</label>
+                <select id="input-subject">
+                    <option value="">Select Here</option>
+                    <option>I'm Hiring</option>
+                    <option>Problem With Our Site</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea id="input-message"></textarea>
+            </div>
+
+            <button type="button" onclick="submitData()">Submit</button>
+        </form>
+
+        <!-- <script src="form.js"></script> -->
+
+    </body>
+</html>
