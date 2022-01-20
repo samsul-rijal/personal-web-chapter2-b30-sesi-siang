@@ -1,0 +1,21 @@
+{
+  "name": "personal-web-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Samsul Rijal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "hbs": "^4.2.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
